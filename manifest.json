@@ -1,0 +1,18 @@
+{
+  "description": "webextension-cookie-via-webrequest",
+  "manifest_version": 2,
+  "name": "Reading cookies without the cookie permission",
+  "version": "0.0.1",
+  "homepage_url": "https://github.com/andrewwakeling/webextension-cookie-via-webrequest",
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "<all_urls>"
+  ],
+  "background": {
+    "scripts": [
+      "browser-polyfill.js",
+      "background.js"
+    ]
+  }
+}
